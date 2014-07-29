@@ -53,7 +53,7 @@ do_action( 'yit_before_primary' ) ?>
 <div id="slider-homepage" >
     <div class="container">
         <div class="row">
-            <div id="home-slider" class="span12 content group">
+            <div id="wowslider-container1" class="span12 content group">
                 <?php
                 $args = array(
                     'order' => 'DESC',
@@ -66,8 +66,11 @@ do_action( 'yit_before_primary' ) ?>
                 $slideArr = $slides->get_posts();
                 if(count($slideArr)>0){
                 ?>
-                <ul id="slider-content">
+<!--                    <link rel="stylesheet" type="text/css" href="--><?php //echo get_stylesheet_directory_uri() . '/wowslider/style.css'; ?><!--" />-->
+<!--                    <script type="text/javascript" src="--><?php //echo get_stylesheet_directory_uri() . '/wowslider/wowslider.js'; ?><!--"></script>-->
+                <ul id="slider-content" class="ws_images">
                 <?php
+                    $i = 0;
                     foreach($slideArr as $slide){
                         $feat_image = wp_get_attachment_url( get_post_thumbnail_id($slide->ID));
                         $link = get_post_meta( $slide->ID, 'button_link', true )!='' ? get_post_meta( $slide->ID, 'button_link', true ) : '#';
@@ -77,13 +80,20 @@ do_action( 'yit_before_primary' ) ?>
                         echo '<img style="height:400px; width:100%;" src="'.$feat_image.'" title="'.$des.'" />';
                         echo '</a>';
                         echo '</li>';
+
+                ?>
+<!--                        <li><a href="--><?php //echo $link; ?><!--"><img src="--><?php //echo $feat_image; ?><!--" alt="--><?php //echo $slide->post_title; ?><!--" title="--><?php //echo $slide->post_title; ?><!--" id="wows1_--><?php //echo $i; ?><!--"/></a>--><?php //echo $des; ?><!--</li>-->
+                <?php
+                        $i++;
                     }
                 ?>
                 </ul>
                 <?php
                     }
                 ?>
+                <div class="ws_shadow"></div>
             </div>
+<!--            <script type="text/javascript" src="--><?php //echo get_stylesheet_directory_uri() . '/wowslider/script.js'; ?><!--"></script>-->
             <script>
                 jQuery(document).ready(function(){
                     jQuery('#slider-content').bxSlider({
