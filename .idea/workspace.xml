@@ -26,10 +26,8 @@
       <file leaf-file-name="home.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/hieund/home.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="100" column="40" selection-start="4162" selection-end="4162" vertical-scroll-proportion="0.6888567" vertical-offset="1037" max-vertical-offset="2346">
-              <folding>
-                <marker date="1406625328727" expanded="true" signature="3968:4336" placeholder="..." />
-              </folding>
+            <state line="100" column="40" selection-start="4162" selection-end="4162" vertical-scroll-proportion="2.1895802" vertical-offset="0" max-vertical-offset="2346">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -37,7 +35,7 @@
       <file leaf-file-name="script.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/hieund/wowslider/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="31" selection-start="455" selection-end="455" vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="442">
+            <state line="8" column="31" selection-start="455" selection-end="455" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="442">
               <folding />
             </state>
           </provider>
@@ -46,10 +44,8 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://D:/Thu Vien/wow-demo/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="19" selection-start="931" selection-end="935" vertical-scroll-proportion="-11.115385" vertical-offset="0" max-vertical-offset="612">
-              <folding>
-                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state line="17" column="19" selection-start="931" selection-end="935" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="612">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -57,7 +53,7 @@
       <file leaf-file-name="functions.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/hieund/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="0" selection-start="930" selection-end="930" vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="374">
+            <state line="27" column="0" selection-start="930" selection-end="930" vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="561">
               <folding />
             </state>
           </provider>
@@ -66,7 +62,7 @@
       <file leaf-file-name="functions-template.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/hieund/theme/functions-template.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="16" selection-start="1586" selection-end="1586" vertical-scroll-proportion="-15.807693" vertical-offset="82" max-vertical-offset="10149">
+            <state line="40" column="16" selection-start="1586" selection-end="1586" vertical-scroll-proportion="0.0" vertical-offset="680" max-vertical-offset="10336">
               <folding />
             </state>
           </provider>
@@ -75,7 +71,7 @@
       <file leaf-file-name="head.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/hieund/theme/templates/header/head.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="72" selection-start="1480" selection-end="1510" vertical-scroll-proportion="-5.8076925" vertical-offset="342" max-vertical-offset="2142">
+            <state line="40" column="72" selection-start="1480" selection-end="1510" vertical-scroll-proportion="0.0" vertical-offset="680" max-vertical-offset="2329">
               <folding />
             </state>
           </provider>
@@ -153,7 +149,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -270,30 +265,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wpshop.local" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wpshop.local" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plugins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="woocommerce" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -301,9 +275,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\xampp\htdocs\wpshop.local\wp-content\plugins" />
       <recent name="D:\xampp\htdocs\wpshop.local\wp-content\themes\hieund" />
       <recent name="D:\xampp\htdocs\wpshop.local\wp-content\themes\hieund\core" />
-      <recent name="D:\xampp\htdocs\wpshop.local\wp-content\plugins" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\xampp\htdocs\wpshop.local\wp-content\themes\hieund\core" />
@@ -337,15 +311,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1612" height="886" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32936507" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24517375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24839126" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -353,6 +326,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32936507" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -376,11 +350,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/hieund/woocommerce/content-single-product.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="74" selection-start="2565" selection-end="2565" vertical-scroll-proportion="1.4269176" vertical-offset="0" max-vertical-offset="1802" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/taxonomy-product_cat.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="41" selection-start="399" selection-end="399" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="187" />
@@ -388,9 +357,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/hieund/theme/hooks.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="13" selection-start="1891" selection-end="1891" vertical-scroll-proportion="-6.0" vertical-offset="507" max-vertical-offset="1836">
-          <folding />
-        </state>
+        <state line="50" column="13" selection-start="1891" selection-end="1891" vertical-scroll-proportion="-6.0" vertical-offset="507" max-vertical-offset="1836" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/hieund/theme/templates/loop/page/content.php">
@@ -430,9 +397,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-includes/template.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="269" column="25" selection-start="7035" selection-end="7035" vertical-scroll-proportion="0.21961933" vertical-offset="4338" max-vertical-offset="8602">
-          <folding />
-        </state>
+        <state line="269" column="25" selection-start="7035" selection-end="7035" vertical-scroll-proportion="0.21961933" vertical-offset="4338" max-vertical-offset="8602" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-includes/template-loader.php">
@@ -562,9 +527,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/hieund/core/functions-template.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="618" column="104" selection-start="21552" selection-end="21552" vertical-scroll-proportion="-4.576923" vertical-offset="10030" max-vertical-offset="16320">
-          <folding />
-        </state>
+        <state line="618" column="104" selection-start="21552" selection-end="21552" vertical-scroll-proportion="-4.576923" vertical-offset="10030" max-vertical-offset="16320" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/woocommerce/woocommerce.php">
@@ -574,9 +537,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/hieund/theme/widgets/YIT_Widget_Cart.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="104" selection-start="2145" selection-end="2145" vertical-scroll-proportion="11.5" vertical-offset="1421" max-vertical-offset="2125">
-          <folding />
-        </state>
+        <state line="66" column="104" selection-start="2145" selection-end="2145" vertical-scroll-proportion="11.5" vertical-offset="1421" max-vertical-offset="2125" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/hieund/theme/metaboxes.php">
@@ -586,9 +547,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/hieund/core/load.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="43" selection-start="3124" selection-end="3124" vertical-scroll-proportion="0.44460228" vertical-offset="639" max-vertical-offset="1360">
-          <folding />
-        </state>
+        <state line="67" column="43" selection-start="3124" selection-end="3124" vertical-scroll-proportion="0.44460228" vertical-offset="639" max-vertical-offset="1360" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/hieund/core/slides.php">
@@ -598,68 +557,65 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/hieund/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1812" column="44" selection-start="54888" selection-end="54888" vertical-scroll-proportion="0.0" vertical-offset="30531" max-vertical-offset="45662">
-          <folding />
-        </state>
+        <state line="1812" column="44" selection-start="54888" selection-end="54888" vertical-scroll-proportion="0.0" vertical-offset="30531" max-vertical-offset="45662" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/hieund/blog.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="27" selection-start="626" selection-end="626" vertical-scroll-proportion="0.22727273" vertical-offset="61" max-vertical-offset="901">
-          <folding />
-        </state>
+        <state line="24" column="27" selection-start="626" selection-end="626" vertical-scroll-proportion="0.22727273" vertical-offset="61" max-vertical-offset="901" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/hieund/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="4" selection-start="761" selection-end="761" vertical-scroll-proportion="0.33186814" vertical-offset="104" max-vertical-offset="850">
-          <folding />
-        </state>
+        <state line="26" column="4" selection-start="761" selection-end="761" vertical-scroll-proportion="0.33186814" vertical-offset="104" max-vertical-offset="850" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/hieund/theme/functions-template.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="16" selection-start="1586" selection-end="1586" vertical-scroll-proportion="-15.807693" vertical-offset="82" max-vertical-offset="10149">
+        <state line="40" column="16" selection-start="1586" selection-end="1586" vertical-scroll-proportion="0.0" vertical-offset="680" max-vertical-offset="10336">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/hieund/theme/templates/header/head.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="72" selection-start="1480" selection-end="1510" vertical-scroll-proportion="-5.8076925" vertical-offset="342" max-vertical-offset="2142">
+        <state line="40" column="72" selection-start="1480" selection-end="1510" vertical-scroll-proportion="0.0" vertical-offset="680" max-vertical-offset="2329">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/hieund/wowslider/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="31" selection-start="455" selection-end="455" vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="442">
+        <state line="8" column="31" selection-start="455" selection-end="455" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="442">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://D:/Thu Vien/wow-demo/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="19" selection-start="931" selection-end="935" vertical-scroll-proportion="-11.115385" vertical-offset="0" max-vertical-offset="612">
-          <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state line="17" column="19" selection-start="931" selection-end="935" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="612">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/hieund/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="0" selection-start="930" selection-end="930" vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="374">
+        <state line="27" column="0" selection-start="930" selection-end="930" vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="561">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/LayerSlider/js/admin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="35785">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/hieund/home.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="100" column="40" selection-start="4162" selection-end="4162" vertical-scroll-proportion="0.6888567" vertical-offset="1037" max-vertical-offset="2346">
-          <folding>
-            <marker date="1406625328727" expanded="true" signature="3968:4336" placeholder="..." />
-          </folding>
+        <state line="100" column="40" selection-start="4162" selection-end="4162" vertical-scroll-proportion="2.1895802" vertical-offset="0" max-vertical-offset="2346">
+          <folding />
         </state>
       </provider>
     </entry>
