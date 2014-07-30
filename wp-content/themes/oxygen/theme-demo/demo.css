@@ -1,0 +1,201 @@
+.transall,
+.theme-switcher .reset,
+.theme-switcher ul > li > a,
+.theme-switcher ul > li > a i,
+.theme-switcher ul > li > a.active:after {
+  -webkit-transition: all 300ms ease-in-out;
+  -moz-transition: all 300ms ease-in-out;
+  -o-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+.theme-switcher-overlay {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 10000;
+  display: none;
+}
+.theme-switcher-overlay .loader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -27.5px;
+  margin-top: -11.5px;
+}
+.theme-switcher-overlay .loader strong {
+  color: #ffffff;
+}
+.theme-switcher {
+  position: absolute;
+  right: -280px;
+  right: 0;
+  top: 200px;
+  background: #000000;
+  color: #ffffff;
+  text-transform: uppercase;
+  z-index: 9999;
+}
+.theme-switcher .ts-inner {
+  overflow: hidden;
+  width: 0;
+  -webkit-opacity: 0;
+  -moz-opacity: 0;
+  opacity: 0;
+}
+.theme-switcher .ts-inner ul > li > a > i {
+  -webkit-opacity: 0;
+  -moz-opacity: 0;
+  opacity: 0;
+}
+.theme-switcher.open {
+  right: 0;
+  z-index: 10001;
+}
+.theme-switcher.open .ts-inner {
+  width: 280px;
+  -webkit-opacity: 1;
+  -moz-opacity: 1;
+  opacity: 1;
+}
+.theme-switcher.open .ts-inner ul > li > a > i {
+  -webkit-opacity: 1;
+  -moz-opacity: 1;
+  opacity: 1;
+}
+.theme-switcher a {
+  display: block;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 13px;
+  white-space: nowrap;
+}
+.theme-switcher a:hover {
+  color: #ffffff;
+}
+.theme-switcher h2,
+.theme-switcher h3 {
+  font-size: 16px;
+  padding: 8px 20px 8px 25px;
+  margin: 0;
+  border-bottom: 1px solid #222222;
+  white-space: nowrap;
+}
+.theme-switcher h2 {
+  line-height: 56px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.theme-switcher h3 {
+  font-size: 11px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: rgba(255, 255, 255, 0.85);
+  background: #222222;
+}
+.theme-switcher h3 span {
+  font-size: 7px;
+  background: #FFF;
+  color: #000;
+  display: inline-block;
+  padding: 2px 4px;
+  margin: 0 3px;
+  position: relative;
+  top: -1px;
+}
+.theme-switcher .toggle {
+  display: block;
+  position: absolute;
+  background: #000000 url(wrench.png) no-repeat center center;
+  left: -56px;
+  top: 0;
+  width: 56px;
+  height: 56px;
+}
+.theme-switcher .reset {
+  border-top: 1px solid #222222;
+  padding: 8px 20px 8px 25px;
+  text-align: center;
+  font-size: 12px;
+}
+.theme-switcher ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.theme-switcher ul > li {
+  margin: 0;
+  padding: 0;
+}
+.theme-switcher ul > li > a {
+  padding: 8px 20px 8px 25px;
+  border-bottom: 1px solid #222222;
+  position: relative;
+  color: rgba(255, 255, 255, 0.6);
+}
+.theme-switcher ul > li > a i {
+  float: right;
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  -webkit-transform-origin: middle right;
+  -moz-transform-origin: middle right;
+  -o-transform-origin: middle right;
+  -ms-transform-origin: middle right;
+  transform-origin: middle right;
+}
+.theme-switcher ul > li > a.active {
+  color: #ffffff;
+}
+.theme-switcher ul > li > a.active:after {
+  position: absolute;
+  content: '';
+  display: block;
+  background: #ffffff;
+  right: 27px;
+  top: 50%;
+  margin-top: -2.5px;
+  width: 5px;
+  height: 5px;
+}
+.theme-switcher ul > li > a.active i {
+  display: none;
+}
+.theme-switcher ul > li > a:hover {
+  background: rgba(34, 34, 34, 0.5);
+}
+.theme-switcher ul > li.opened > a > i {
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+.theme-switcher ul li ul {
+  display: none;
+}
+.theme-switcher ul li ul a {
+  padding-left: 40px;
+}
+.theme-switcher ul li ul ul a {
+  padding-left: 55px;
+}
+.theme-switcher ul li ul ul ul a {
+  padding-left: 70px;
+}
+@media (max-width: 768px) {
+  .theme-switcher {
+    display: none;
+  }
+}
+.right-sidebar.oxygen-sidebar-menu .theme-switcher {
+  left: 0;
+  right: auto;
+}
+.right-sidebar.oxygen-sidebar-menu .theme-switcher .toggle {
+  left: auto;
+  right: -56px;
+}

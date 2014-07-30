@@ -1,0 +1,218 @@
+@import "../assets/css/lesshat.less";
+
+@switcher-width: 280px;
+@toggle-size: 56px;
+
+@bg: #000;
+@border: #222;
+@color: #FFF;
+@padd: 8px 20px 8px 25px;
+@font-size: 13px;
+
+.transall {
+	.transition(~"all 300ms ease-in-out");
+}
+
+.theme-switcher-overlay {
+	position: fixed;
+	left: 0; right: 0; top: 0; bottom: 0;
+	background: fadeout(#000, 30%);
+	z-index: 10000;
+	display: none;
+	
+	.loader {
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		margin-left: -55px/2;
+		margin-top: -23px/2;
+		
+		strong {
+			color: @color;
+		}
+	}
+}
+
+.theme-switcher {
+	position: absolute;
+	right: -@switcher-width;
+	right: 0;
+	top: 200px;
+	background: @bg;
+	color: @color;
+	//width: @switcher-width;
+	text-transform: uppercase;
+	z-index: 9999;
+	//.transition(~"all 500ms cubic-bezier(0.190, 1.000, 0.220, 1.000)");
+	
+	.ts-inner {
+		overflow: hidden;
+		width: 0;
+		.opacity(0);
+		//&:extend(.transall);
+		
+		ul > li > a > i {
+			.opacity(0);
+		}
+	}
+	
+	&.open {
+		right: 0;
+		z-index: 10001;
+		
+		.ts-inner {
+			width: @switcher-width;
+			.opacity(1);
+			
+			ul > li > a > i {
+				.opacity(1);
+			}
+		}
+	}
+	
+	a {
+		display: block;
+		color: fadeout(@color, 20%);
+		font-size: @font-size;
+		white-space: nowrap;
+		
+		&:hover {
+			color: @color;
+		}
+	}
+	
+	h2, h3 {
+		font-size: @font-size + 3;
+		padding: @padd;
+		margin: 0;
+		border-bottom: 1px solid @border;
+		white-space: nowrap;
+	}
+	
+	h2 {
+		line-height: @toggle-size;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	
+	h3 {
+		font-size: @font-size - 2;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		color: fadeout(@color, 15%);
+		background: @border;
+		
+		span {
+			font-size: 7px;
+			background: #FFF;
+			color: #000;
+			display: inline-block;
+			padding: 2px 4px;
+			margin: 0 3px;
+			position: relative;
+			top: -1px;
+		}
+	}
+	
+	.toggle {
+		display: block;
+		position: absolute;
+		background: @bg url(wrench.png) no-repeat center center;
+		left: -@toggle-size;
+		top: 0;
+		.size(@toggle-size);
+	}
+	
+	.reset {
+		border-top: 1px solid @border;
+		padding: @padd;
+		text-align: center;
+		font-size: @font-size - 1;
+		&:extend(.transall);
+	}
+	
+	ul {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+		
+		> li {
+			margin: 0;
+			padding: 0;
+			
+			> a {
+				padding: @padd;
+				border-bottom: 1px solid @border;
+				position: relative;
+				color: fadeout(@color, 40%);
+				&:extend(.transall);
+				
+				i {
+					float: right;
+					&:extend(.transall);
+					.rotate(-90deg);
+					.transform-origin(middle right);
+				}
+				
+				&.active {
+					color: @color;
+					
+					&:after {
+						@s: 5px;
+						
+						position: absolute;
+						content: '';
+						display: block;
+						background: @color;
+						right: 27px;
+						top: 50%;
+						margin-top: -@s/2;
+						.size(@s);
+						&:extend(.transall);
+						//.border-radius(@s);
+					}
+					
+					i {
+						display: none;
+					}
+				}
+				
+				&:hover {
+					background: fade(@border, 50%);
+				}
+			}
+			
+			&.opened > a > i {
+				.rotate(0);
+			}
+		}
+		
+		@padd_unit: 15;
+		
+		li ul {
+			display: none;
+		}
+		
+		li ul a { padding-left: 25px + @padd_unit * 1; }
+		li ul ul a { padding-left: 25px + @padd_unit * 2; }
+		li ul ul ul a { padding-left: 25px + @padd_unit * 3; }
+	}
+	
+	@media (max-width: 768px) {
+		display: none;
+	}
+}
+
+
+.right-sidebar.oxygen-sidebar-menu {
+	
+	.theme-switcher {
+		left: 0;
+		right: auto;
+		
+		.toggle {
+			left: auto;
+			right: -@toggle-size;
+		}
+	}
+}

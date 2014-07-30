@@ -23,55 +23,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="home.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="home.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/hieund/home.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="100" column="40" selection-start="4162" selection-end="4162" vertical-scroll-proportion="2.1895802" vertical-offset="0" max-vertical-offset="2346">
+            <state line="100" column="40" selection-start="4162" selection-end="4162" vertical-scroll-proportion="4.576923" vertical-offset="1632" max-vertical-offset="2346">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="script.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/hieund/wowslider/script.js">
+      <file leaf-file-name="home.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/oxygen/home.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="31" selection-start="455" selection-end="455" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="442">
-              <folding />
+            <state line="14" column="13" selection-start="159" selection-end="159" vertical-scroll-proportion="0.3371105" vertical-offset="0" max-vertical-offset="706">
+              <folding>
+                <element signature="e#6#80#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://D:/Thu Vien/wow-demo/index.html">
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/oxygen/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="19" selection-start="931" selection-end="935" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="612">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="functions.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/hieund/functions.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="0" selection-start="930" selection-end="930" vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="561">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="functions-template.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/hieund/theme/functions-template.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="16" selection-start="1586" selection-end="1586" vertical-scroll-proportion="0.0" vertical-offset="680" max-vertical-offset="10336">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="head.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/hieund/theme/templates/header/head.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="72" selection-start="1480" selection-end="1510" vertical-scroll-proportion="0.0" vertical-offset="680" max-vertical-offset="2329">
+            <state line="8" column="0" selection-start="82" selection-end="126" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="221">
               <folding />
             </state>
           </provider>
@@ -113,6 +88,7 @@
         <option value="$PROJECT_DIR$/wp-content/themes/hieund/wowslider/script.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/hieund/functions.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/hieund/home.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/oxygen/home.php" />
       </list>
     </option>
   </component>
@@ -149,6 +125,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -217,33 +194,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="hieund" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wpshop.local" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wpshop.local" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hieund" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wowslider" />
+              <option name="myItemId" value="oxygen" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -265,9 +216,22 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wpshop.local" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wpshop.local" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="db" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -275,6 +239,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\xampp\htdocs\wpshop.local\db" />
       <recent name="D:\xampp\htdocs\wpshop.local\wp-content\plugins" />
       <recent name="D:\xampp\htdocs\wpshop.local\wp-content\themes\hieund" />
       <recent name="D:\xampp\htdocs\wpshop.local\wp-content\themes\hieund\core" />
@@ -311,14 +276,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1612" height="886" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24839126" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25160876" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -350,26 +315,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/taxonomy-product_cat.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="41" selection-start="399" selection-end="399" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="187" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/hieund/theme/hooks.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="13" selection-start="1891" selection-end="1891" vertical-scroll-proportion="-6.0" vertical-offset="507" max-vertical-offset="1836" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/hieund/theme/templates/loop/page/content.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="20" selection-start="456" selection-end="456" vertical-scroll-proportion="0.14945056" vertical-offset="0" max-vertical-offset="455" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/single-product/meta.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="48" selection-start="260" selection-end="260" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="544" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/admin/post-types/class-wc-admin-cpt-product.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="681" column="25" selection-start="24291" selection-end="24302" vertical-scroll-proportion="-4.25" vertical-offset="11237" max-vertical-offset="20298" />
@@ -607,15 +552,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/LayerSlider/js/admin.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="35785">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="35785" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/hieund/home.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="100" column="40" selection-start="4162" selection-end="4162" vertical-scroll-proportion="2.1895802" vertical-offset="0" max-vertical-offset="2346">
+        <state line="100" column="40" selection-start="4162" selection-end="4162" vertical-scroll-proportion="4.576923" vertical-offset="1632" max-vertical-offset="2346">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/oxygen/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.76623374" vertical-offset="531" max-vertical-offset="1224">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/oxygen/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="82" selection-end="126" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="221">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/wp_shop.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="24633">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/oxygen/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="13" selection-start="159" selection-end="159" vertical-scroll-proportion="0.3371105" vertical-offset="0" max-vertical-offset="706">
+          <folding>
+            <element signature="e#6#80#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
